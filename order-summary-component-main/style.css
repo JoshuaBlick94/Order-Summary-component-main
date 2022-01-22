@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.container .card .top {
+    height: 150px;
+    width: 100%;
+    background-image: url(/images/illustration-hero.svg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container .card .bottom {
+    padding: 20px;  
+}
+
+.container .card .bottom h1 {
+    font-size: 20px; 
+    font-weight: 900;
+    text-transform: capitalize; 
+    margin-bottom: 8px;
+    color: hsl(223, 47%, 23%);
+}
+
+.container .card .bottom p {
+    font-size: 13px; 
+    font-weight: 400;
+    line-height: 1.4;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 10px;
+}
+
+.container .card .bottom section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.container .card .bottom section img {
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+}
+
+.container .card .bottom section h3 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: hsl(223, 47%, 23%);
+
+}
+
+.container .card .bottom section h4 {
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+
+}
+
+.plan-charge {
+    margin-right: 80px;
+}
+
+.container .card .bottom section a {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: hsl(245, 75%, 52%);
+}
+
+.container .card button.ptp {
+    width: 100%;
+    display: block;
+    padding: 8px 20px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+}
+
+.container .card button.ptp a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 13px;  
+}
+
+.container .card button.cta {
+    width: 100%;
+    display: block;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 3px;  
+    background-color: #fff;
+}
+
+.container .card button.cta a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 13px; 
+    color: hsl(223, 47%, 23%)
+}
+
+
